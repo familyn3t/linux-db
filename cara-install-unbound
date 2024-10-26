@@ -2,6 +2,7 @@ unbound@unbound:~$ netstat -plntu
 root@unbound:~# apt install git
 root@unbound:~# git clone https://github.com/familyn3t/linux-db.git
 root@unbound:~/linux-db# chmod +x install-unbound.sh
+root@unbound:~/linux-db# apt-get update
 root@unbound:~/linux-db# ./install-unbound.sh
 root@unbound:~/linux-db# nslookup -port=5533 iainkediri.ac.id 127.0.0.1
 Server:         127.0.0.1
