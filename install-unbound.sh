@@ -23,4 +23,4 @@ echo "/var/log/unbound.log rw," > /etc/apparmor.d/local/usr.sbin.unbound
 apparmor_parser -r /etc/apparmor.d/usr.sbin.unbound
 
 service unbound restart
-nslookup -port=5533 multipro.us 127.0.0.1
+nslookup -port=5533 pendik.id 127.0.0.1
