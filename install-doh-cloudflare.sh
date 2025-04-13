@@ -23,6 +23,7 @@ esac
 
 apt-get install -y curl
 wget https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-linux-amd64.deb
+#https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
 dpkg -i cloudflared-stable-linux-amd64.deb 
 cloudflared --version
 useradd -r -M -s /usr/sbin/nologin -c "Cloudflared user" cloudflared
